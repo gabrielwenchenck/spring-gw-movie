@@ -28,8 +28,4 @@ header {
   align-items: center;
 }
 
-.gwmovie-nav-content a,
-.gwmovie-nav-content a:hover {
-  text-decoration: none;
-  color:unset
-}
+
