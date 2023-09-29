@@ -1,0 +1,69 @@
+.gwmovie-form-container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.gwmovie-form {
+  width: calc(100% - 20px);
+}
+
+.gwmovie-form-group {
+  margin-bottom: 20px;
+}
+
+.gwmovie-form-group label {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.gwmovie-form-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gwmovie-movie-card-image {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.gwmovie-card-bottom-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 20px 10px;
+  border-radius: 0 0 8px 8px;
+}
+
+.gwmovie-card-bottom-container h3 {
+  color: #4A4A4A;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  min-height: 40px;
+}
+
+.gwmovie-btn {
+  background-color: #831010;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #831010;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.gwmovie-btn:hover,
+.gwmovie-btn:active,
+.gwmovie-btn:focus {
+  background-color: #B22222;
+  border-color: transparent;
+  box-shadow: none;
+}

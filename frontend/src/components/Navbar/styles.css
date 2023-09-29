@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   color: #fff;
+  padding: 0 20px; 
 }
 
 .gwmovie-nav-content h1 {
@@ -19,6 +20,11 @@
 .gwmovie-contact-link {
   margin: 0 0 0 10px;
   font-size: 12px;
+  transition: color 0.3s ease; 
+}
+
+.gwmovie-contact-link:hover {
+  color: #B22222; 
 }
 
 header {
@@ -26,6 +32,18 @@ header {
   background-color: var(--color-primary);
   display: flex;
   align-items: center;
+}
+
+/* Estilo para o ícone do Github */
+.gwmovie-contact-container svg {
+  fill: #fff; 
+  width: 24px; 
+  height: auto; 
+  transition: fill 0.3s ease; 
+}
+
+.gwmovie-contact-container:hover svg {
+  fill: #B22222; 
 }
 
 
