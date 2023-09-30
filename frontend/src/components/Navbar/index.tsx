@@ -1,5 +1,5 @@
 import {ReactComponent as GithubIcon } from 'assets/img/gh-logo.svg'
-import {ReactComponent as Logo } from 'assets/img/download.svg'
+import {ReactComponent as Logo } from 'assets/img/logo.svg'
 
 function Navbar(){
   return(<header>
