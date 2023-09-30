@@ -1,0 +1,63 @@
+.dsmovie-pagination-container {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dsmovie-pagination-box {
+  width: 11.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dsmovie-pagination-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: .25rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: .0625rem solid var(--color-primary);
+  cursor: pointer;
+
+  transition: background-color .3s ease, border-color .3s ease;
+}
+
+.dsmovie-pagination-button:not([disabled]):hover,
+.dsmovie-pagination-button:not([disabled]):focus {
+  background-color: var(--color-primary);
+  border-color: #B22222;
+}
+
+.dsmovie-pagination-button:not([disabled]):hover svg,
+.dsmovie-pagination-button:not([disabled]):focus svg {
+  filter: none;
+}
+
+.dsmovie-pagination-button svg {
+  filter: brightness(0) saturate(100%) invert(13%) sepia(61%) saturate(3030%) hue-rotate(343deg) brightness(96%) contrast(109%);
+}
+
+.dsmovie-pagination-button[disabled] {
+  border: .0625rem solid #c2c2c2;
+  cursor: not-allowed;
+}
+
+.dsmovie-pagination-button[disabled] svg {
+  filter: none;
+}
+
+.dsmovie-pagination-container p {
+  margin: .625rem;
+  font-size: .75rem;
+  color: var(--color-primary);
+  font-weight: bold;
+  text-align: center;
+}
+
+.dsmovie-flip-horizontal {
+  transform: rotate(180deg);
+}
